@@ -585,7 +585,7 @@ footer {
 
 .footer-list {
     display: flex;
-    flex-basis: calc(100% / 4%);
+    flex-basis: calc(100% / 4);
     flex-direction: column;
     padding: 0 40px;
 }
