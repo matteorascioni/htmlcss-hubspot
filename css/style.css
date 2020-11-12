@@ -77,6 +77,7 @@ a {
 }
 
 .btn-small:hover {
+    cursor: pointer;
     background: #ff7a59;
     color: #fff;
 }
@@ -85,11 +86,13 @@ a {
     font-size: 12px;
     padding: 13px 25px;
     border-radius: 5px;
+    border: 1px solid #ff7a59;
     background: #ff7a59;
     color: #fffaf8;
 }
 
 .btn-medium:hover {
+    cursor: pointer;
     background-color:#ffffff;
     border: 1px solid #ff7a59;
     color: #ff7a59;
@@ -99,11 +102,13 @@ a {
     font-size: 12px;
     padding: 20px 40px;
     border-radius: 5px;
+    border: 1px solid #ff7a59;
     background: #ff7a59;
     color: #fffaf8;
 }
 
 .btn-large:hover {
+    cursor: pointer;
     background-color:#ffffff;
     border: 1px solid #ff7a59;
     color: #ff7a59;
@@ -611,6 +616,7 @@ footer {
 .footer-list .btn-footer {
     font-size: 16px;
     padding: 20px 15px;
+    border: 1px solid #ffffff;
     background: #ffffff;
     color: #33475b;
 }
@@ -618,6 +624,11 @@ footer {
 .footer-list ul li a i {
     font-size: 18px;
     padding: 10px;
+    transition: transform .3s;
+}
+
+.footer-list ul li a i:hover {
+    transform: scale(1.5);
 }
 
 /* FOOTER LANGUAGES */
