@@ -74,6 +74,8 @@ a {
     border-radius: 5px;
     background-color:#ffffff;
     color: #ff7a59;
+    transition: background .4s,
+                border .4s
 }
 
 .btn-small:hover {
@@ -89,6 +91,8 @@ a {
     border: 1px solid #ff7a59;
     background: #ff7a59;
     color: #fffaf8;
+    transition: background .4s,
+                border .4s
 }
 
 .btn-medium:hover {
@@ -105,6 +109,8 @@ a {
     border: 1px solid #ff7a59;
     background: #ff7a59;
     color: #fffaf8;
+    transition: background .4s,
+                border .4s
 }
 
 .btn-large:hover {
